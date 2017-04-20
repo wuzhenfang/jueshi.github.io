@@ -1,0 +1,134 @@
+.address {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 9;
+  background-color: #ffffff;
+  border-bottom: 1px #BFBFBF solid;
+  overflow: hidden;
+  font-size: 13px;
+}
+.address span {
+  display: block;
+  float: left;
+  line-height: 30px;
+}
+.address span.coordinate {
+  width: 45px;
+  border-right: 1px #BFBFBF solid;
+  text-align: center;
+}
+.address span.coordinate > i.icon-zuobiao {
+  font-size: 20px;
+  color: #ff7771;
+}
+.address span.current {
+  padding-left: 5px;
+  border-left: 1px solid #e8f8fe;
+}
+.conditions {
+  margin-top: 30px;
+  padding-left: 20px ;
+  background-color: #edf4fa;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.conditions table {
+  width: 80%;
+}
+.conditions table th {
+  max-width: 100px;
+}
+.conditions table td {
+  vertical-align: middle;
+  text-align: left;
+  padding-left: 10px;
+  line-height: 30px;
+}
+.conditions table td > .seach {
+  padding: 0px 5px;
+  height: 26px;
+  line-height: 26px;
+  color: #ffffff;
+  display: inline-block;
+  background-color: rgba(153, 153, 153, 0.7);
+}
+.conditions table td input[type=text],
+.conditions table td select {
+  border: 1px solid #e1e1e1;
+  padding-left: 4px;
+  width: 95%;
+}
+.conditions table td input[type=text][readonly='readonly'] {
+  background-color: #eeeeee;
+}
+.conditions table td select.cselect {
+  width: 48%;
+  min-width: 70px;
+}
+.listbtn button,
+.queryc {
+  height: 24px;
+  width: auto;
+  padding: 0px 6px;
+  text-align: center;
+  border: none;
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #1c86c5;
+}
+.listbtn button:hover,
+.queryc:hover {
+  background-color: #0C70AC;
+}
+.mylist {
+  width: 100%;
+  margin: 0 auto;
+}
+.djform input[type=text],
+.djform textarea,
+.djform select {
+  border-radius: 4px;
+  border: 1px solid #e1e1e1;
+  padding-left: 4px;
+  width: 80%;
+}
+.djform input[type=text],
+.djform select {
+  height: 30px;
+  line-height: 30px;
+}
+.djform input[type=text][readonly='readonly'] {
+  background-color: #eeeeee;
+}
+.djform > table {
+  width: 80%;
+  margin: 0 auto;
+  color: #466a84;
+  border-collapse: collapse;
+}
+.djform > table th,
+.djform > table td {
+  border: 1px solid #eeeeee;
+}
+.djform > table th.noborder,
+.djform > table td.noborder {
+  border-width: 0px ;
+}
+.djform > table th > i.iconfont,
+.djform > table td > i.iconfont {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.djform > table td {
+  padding: 5px 3px;
+}
+.djform > table > caption {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 50px;
+}

@@ -1,0 +1,164 @@
+@import (reference) "base";
+.mbody{
+    position:fixed;
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background-color:blueviolet;
+    overflow: hidden;
+}
+#topPlan{
+    position: relative;
+    background-color: #5f99e9;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background-image: url(../image/topbj.png);
+    background-position: right bottom;
+}
+#leftPlan{
+    position: relative;
+    float: left;
+    background-color: #0033a3;
+    color:@c-ff;
+    width: 150px;
+}
+#mainPlan{
+    position: relative;
+    float: right;
+    background-color: #edf4fa;
+}
+.tlogo{
+    position: relative;
+    z-index: 2;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    float: left;
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size:26px;
+    color:@c-ff;
+    font-family: "SimHei";
+    margin-left: 20px;
+    padding-left: 50px;
+    letter-spacing: 2px;
+}
+.tright{
+    position: absolute;
+    right:0;
+    top:0;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    background-image: url(../image/dangqi.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    ul{
+        display: block;
+        margin-top:26px;
+        margin-right:20px;
+       >li{
+            display: inline-block;
+             color:@c-ff;margin:0px 5px;
+             .edit_pwd{
+                 cursor:pointer;
+             }
+            >span{
+            }
+            >i.icon-kaiguan{
+                cursor:pointer;
+            }
+        }  
+    }
+}
+.topnav{
+    height: 39px;
+    border-top:1px solid #0841c0;
+    background-color:#0644cd;
+    ul{
+        padding-left:170px;
+        display: block;
+        height: 38px;
+        border-top:1px solid #376ce0;
+        li{
+            display: block;
+            float: left;
+            color: @c-ff;
+            width: 150px;
+            height: 38px;
+            line-height: 38px;
+            position: relative;
+            text-align: center;
+            border-top:1px solid #376ce0;
+            margin-top:-1px;
+            cursor: pointer;
+            >i.iconfont{
+                margin-right:2px;
+            }
+            >i.line{
+                height:26px;
+                width:0px;
+                border-left:1px solid @c-03;
+                border-right:1px solid @c-60;
+                margin-top:6px;
+                display: block;
+                float:left;
+            }
+            &.active{
+                border-top:1px solid #0841c0;
+                background-color:#0841c0;
+            }
+        }
+    }
+}
+.leftnav{
+    position: relative;
+    width:130px ;
+    margin: 0 auto;
+    margin-top:20px;
+    dt{
+        background-color: #0644ce;
+        .tcenter;
+        .size16;
+        height: 36px;
+        line-height: 36px;
+        border-radius: 4px;
+        cursor: pointer;
+        >i.iconfont{
+            margin-left:2px;
+        }
+    }
+    dd{
+        height: 38px;
+        line-height: 38px;
+        .tcenter;
+        cursor: pointer;
+        position: relative;
+        >i.line{
+            display: block;
+            height:0px;
+            width:100%;
+            border-top:1px solid @c-03;
+            border-bottom:1px solid @c-60;
+            position: absolute;
+            bottom: 0;
+            left:0;
+        }
+        &.active{
+            background-color:#002c8e;
+        }
+    }
+}
+.panel{
+    position : relative;
+    overflow-y : hidden ;
+    iframe{
+        position : relative;
+        overflow-y : hidden ;
+    }
+}

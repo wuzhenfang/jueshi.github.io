@@ -1,0 +1,107 @@
+/*弹出框公用样式*/
+button{
+	border:none;
+}
+.notice_text{
+	text-align: center;
+	font-size:16px;
+	word-break: break-all;
+	line-height: 30px;
+}
+/*透明背景弹出框样式*/
+.tm_bj{
+	display:block;
+	background-image: url(../image/btm.png);
+	position: fixed;
+	left: 0;
+	top:0;
+	left: 0;
+	right: 0;
+	z-index: 1001;
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+}
+.notice_select,.notice_notice {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.window{
+	background: #ffffff;
+	position: absolute;
+	text-align: center;
+	border-radius:2px;
+	display:block;
+	z-index: 101;
+	border:2px solid #ffffff;
+	-webkit-box-shadow:0 0 5px #529fe2;  
+  	-moz-box-shadow:0 0 5px #529fe2;  
+  	box-shadow:0 0 15px #529fe2;
+}
+.window iframe{
+	display:block;
+	overflow-x:hidden;
+	border:none;
+}
+.window iframe html{
+	box-sizing:none;
+}
+.window a.close{
+	position:absolute;
+	right:10px;top:4px;
+	color:#ffffff;
+	display:block;
+	width:24px;height:24px;
+	line-height:24px;
+	font-size:28px;
+	z-index:3;
+	cursor: pointer;
+}
+.window a.close:hover{
+	color:#db3f53;
+	text-decoration: none;
+}
+/*公共按钮样式*/
+.okclose_btn{clear:both;margin:10px auto; text-align:center;}
+.zf_btn{width:80px;height:30px;line-height:30px;display:inline-block;margin:0px 10px;border-radius:5px;cursor:pointer}
+
+.zf_btn i.iconfont{
+	display:inline-block;
+	margin-right:5px;
+}
+.zf_btn_ok{
+	background-color:#06a1e9;
+	color:#ffffff;
+}
+.zf_btn_ok:hover{background-color:#0C70AC}
+.zf_btn_back{
+	background-color:#f6f6f6;
+	color:#5b5b5b;
+}
+.zf_btn_back:hover{background-color:#e8e8e8}
+.pew {
+	width: 97%;
+	height: 40px;
+	text-align: left;
+	line-height: 40px;
+	color: #ffffff;
+	background: #0C70AC;
+	background-image:url(../image/popbg.png);
+	cursor: default;
+	font-size:16px;
+	padding-left:3%;
+	position:relative;
+	z-index:2;
+}
+.notice_content{
+	padding:10px;
+	line-height:24px;
+	min-height:50px;
+	font-size:20px;
+	color:#333333;
+	padding-top:18px;
+}

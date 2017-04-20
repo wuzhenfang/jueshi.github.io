@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>查询统计-个人党费缴纳情况</title>
+		<meta name="Author" Content="wzf">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../js/dwz/css/core.css" />
+		<link rel="stylesheet" type="text/css" href="../js/dwz/css/grid.css" />
+		<link rel="stylesheet" type="text/css" href="../css/font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/jedate.css" />
+		<script type="text/javascript" src="../js/commonJs/jquery.js" ></script>
+		<script type="text/javascript" src="../js/dwz/dwz.core.js" ></script>
+		<script type="text/javascript" src="../js/dwz/dwz.drag.js" ></script>
+		<script type="text/javascript" src="../js/dwz/dwz.pagination.js" ></script>
+		<script type="text/javascript" src="../js/dwz/dwz.stable.js" ></script>
+		<script type="text/javascript" src="../js/commonJs/jedate.js" ></script>
+		<script type="text/javascript" src="../js/date/grdate_seach.js" ></script>
+		<script type="text/javascript" src="../js/pageJs/gr.js" ></script>
+	</head>
+	<body>
+		<div class="gbody">
+			<div class="address c_66">
+				<span class="coordinate"><i class="iconfont icon-zuobiao"></i></span>
+				<span class="current">当前位置：</span>
+				<span><a>查询统计</a><em>>></em><a class="c_33">个人缴纳情况</a></span>
+			</div>
+			<div class="conditions">
+				<table>
+					<colgroup>
+						<col width="10%" />
+						<col width="30%" />
+						<col width="10%" />
+						<col width="20%" />
+						<col width="10%" />
+						<col width="20%" />
+					</colgroup>
+					<tr>
+						<th>党员姓名</th>
+						<td><input type="text" /></td>
+						<th>交纳时间</th>
+						<td><input type="text" readonly="readonly" class="endate" /></td>
+						<th>交纳方式</th>
+						<td>
+							<select>
+								<option value="">-请选择-</option>
+								<option value="现金">现金</option>
+								<option value="微信">微信</option>
+							</select>	
+						</td>
+					</tr>
+					<tr>
+						<th>身份证号</th>
+						<td><input type="text" /></td>
+						<th>补交月份</th>
+						<td><input type="text" readonly="readonly" class="enyearm" /></td>
+						<td colspan="2" class="tcenter"><button type="button" class="queryc peizhiquery">查询</button></td>
+					</tr>
+				</table>
+			</div>
+			<div class="mylist">
+				<table id="list" width="100%">
+					<thead>
+						<tr>
+							<th width="40">序号</th>
+							<th width="60">党员姓名</th>
+							<th width="100">身份证号</th>
+							<th width="80">交纳时间</th>
+							<th width="60">交纳金额</th>
+							<th width="110">补交月份</th>
+							<th width="60">补交金额</th>
+							<th width="60">交纳方式</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,68 @@
+.divInline {
+	display: inline-block;
+	border: 1px solid #D9E0EA;
+	background-color:#ffffff;
+}
+.left234{
+	width: 234px;
+}
+.center {
+	width: 95%;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:30px;
+}
+
+.leftTree {
+	position: relative;
+}
+
+.rightTree {
+	float: right;
+}
+
+.treeTitle {
+	height: 40px;
+	background-color: #E7F3FF;
+	line-height: 40px;
+	padding-left: 20px;
+	clear: both;
+	color:#05a2e9;
+	border-bottom:1px black dotted;
+}
+
+.leftPeople {
+	height: 359px;
+	overflow: auto;
+}
+
+.rightPeople {
+	max-height:359px;
+	overflow: auto;
+}
+.yipeople{
+	height:100px;
+}
+.weipeople{
+	height:210px;
+}
+
+.rightPeople li a {
+	margin: auto;
+	display: block;
+	height: 30px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+	color: #333;
+}
+
+.rightPeople li a:hover {
+	color: white;
+	background-color: #89AEC9;
+}
+
+.centerBody {
+    padding: 10px 0px;
+}

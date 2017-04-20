@@ -1,0 +1,113 @@
+@c-00 : #000000;
+@c-ee : #eeeeee;
+@c-ff : #ffffff;
+@red : red;
+@c-03 :#032570;
+@c-60 : #608bea;
+@c-33:#333333;
+@c-66:#666666;
+@c-99:#999999;
+@c-46:#466a84;//字体颜色
+@qc-red:saturate(@red,30%);
+@c-e1:#e1e1e1;
+@c-border:fadeout(@c-99,30%);
+*{
+    margin:0;padding:0;
+}
+.tcenter{
+    text-align: center !important;
+}
+.size12{
+    font-size:12px;
+}
+.size13{
+    font-size:13px;
+}
+.size14{
+    font-size:14px;
+}
+.size16{
+    font-size:16px;
+}
+.size18{
+    font-size:18px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.c_red{
+    color: @qc-red;
+}
+.c_33{
+    color: @c-33;
+}
+.c_66{
+    color: @c-66;
+}
+.c_99{
+    color: @c-99;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.textl{
+    text-align: left;
+}
+.pl-20{
+    padding-left:20px ;
+}
+.dnone{
+    display: none;
+}
+.clearall{
+    clear: both;
+    border: none;
+    display: block;
+}
+.tright{
+    text-align: right !important;
+}
+li,ul,ol,dl,dt,dd{
+    list-style: none;
+}
+em,i,h1,h2,h3,h4,h5{
+    font-style: normal;
+    font-size:13px;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+input,textarea,select,a{
+    outline: none;
+    border:none;
+}
+.c_red{
+    color: @qc-red;
+}
+.c_33{
+    color: @c-33;
+}
+.c_66{
+    color: @c-66;
+}
+.c_99{
+    color: @c-99;
+}
+
+body{
+    background-color:#edf4fa;
+    color:@c-33;
+    .size13;
+    min-width: 800px;
+    font-family: "microsoft yahei";
+}

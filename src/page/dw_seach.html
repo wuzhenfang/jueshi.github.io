@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>查询统计-机关党委党费缴纳情况</title>
+		<meta name="Author" Content="wzf">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../js/dwz/css/core.css" />
+		<link rel="stylesheet" type="text/css" href="../js/dwz/css/grid.css" />
+		<link rel="stylesheet" type="text/css" href="../css/font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/jedate.css" />
+		<script type="text/javascript" src="../js/commonJs/jquery.js" ></script>
+		<script type="text/javascript" src="../js/dwz/dwz.core.js" ></script>
+		<script type="text/javascript" src="../js/dwz/dwz.drag.js" ></script>
+		<script type="text/javascript" src="../js/dwz/dwz.pagination.js" ></script>
+		<script type="text/javascript" src="../js/dwz/dwz.stable.js" ></script>
+		<script type="text/javascript" src="../js/commonJs/jedate.js" ></script>
+		<script type="text/javascript" src="../js/date/dwdate_seach.js" ></script>
+		<script type="text/javascript" src="../js/pageJs/dw.js" ></script>
+	</head>
+	<body>
+		<div class="gbody">
+			<div class="address c_66">
+				<span class="coordinate"><i class="iconfont icon-zuobiao"></i></span>
+				<span class="current">当前位置：</span>
+				<span><a>查询统计</a><em>>></em><a class="c_33">机关党委缴纳情况</a></span>
+			</div>
+			<div class="conditions">
+				<table>
+					<colgroup>
+						<col width="10%" />
+						<col width="20%" />
+						<col width="10%" />
+						<col width="20%" />
+						<col width="10%" />
+						<col width="12%" />
+						<col width="8%" />
+					</colgroup>
+					<tr>
+						<th>组织编号</th>
+						<td><input type="text"  /></td>
+						<th>缴纳月份</th>
+						<td><input type="text" readonly="readonly" class="enyearm" /></td>
+						<th>缴纳状态</th>
+						<td>
+							<select>
+								<option value="">-请选择-</option>
+								<option value="已缴">已缴</option>
+								<option value="未缴">未缴</option>
+							</select>	
+						</td>
+					</tr>
+					<tr>
+						<th>组织名称</th>
+						<td><input type="text" /></td>
+						<th>负责人</th>
+						<td><input type="text"  /></td>
+						<th>缴纳方式</th>
+						<td>
+							<select>
+								<option value="">-请选择-</option>
+								<option value="现金">现金</option>
+								<option value="微信">微信</option>
+							</select>	
+						</td>
+						<td rowspan="2" class="tcenter"><button type="button" class="queryc peizhiquery">查询</button></td>
+					</tr>
+				</table>
+			</div>
+			<div class="mylist">
+				<table id="list" width="100%">
+					<thead>
+						<tr>
+							<th width="40">序号</th>
+							<th width="60">组织编号</th>
+							<th width="60">组织名称</th>
+							<th width="60">缴纳月份</th>
+							<th width="60">实收金额</th>
+							<th width="80">补收金额</th>
+							<th width="100">上缴金额</th>
+							<th width="80">缴纳方式</th>
+							<th width="80">负责人</th>
+							<th width="80">负责人联系方式</th>
+							<th width="80">缴纳状态</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

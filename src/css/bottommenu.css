@@ -1,0 +1,146 @@
+.bottommenu {
+	float: none;
+	clear: none;
+	width: 100%;
+	height: 32px;
+	padding-top: 4px;
+	position: fixed;
+	display: block;
+	z-index: 10;
+	left:0;
+	bottom:0;
+	background-color: #b0cadb;
+	text-align: center;
+	padding-bottom: 2px;
+}
+.bottommenu>ul>li{
+	position:relative;
+	display: inline-block;
+}
+.bottommenu>ul>li>ul {
+	background-image:url("../../image/common/ul_bg.png");
+	position: absolute;
+	text-align: left;
+	z-index: 3000;
+	display:none;
+	left: 0px;
+	top: 0px;
+}
+
+.bottommenu>ul>li>ul>li {
+	display: block;
+	margin-bottom:3px;
+	width: auto;
+	height: 28px ;
+	line-height: 28px ;
+	z-index: 3001;
+}
+
+.btn_icon {
+	display: inline-block;
+	height: 30px;
+    line-height: 32px;
+	margin-right: 18px;
+    padding: 0 10px 0 10px;
+	font-size: 13px !important;
+	letter-spacing: 4px;
+	border-radius: 3px;
+	border: 0px;
+	color: white;
+	cursor: pointer;
+	background-color: #05a2e9;
+}
+.btn_icon.back{
+	background-color:#f6f6f6;
+	color:#5b5b5b;
+}
+.btn_icon.back:hover{
+	background-color:#e8e8e8 !important;
+}
+.btn_icon.active{
+	background-color: #0C70AC;
+}
+.btn_icon i.iconfont {
+	display: inline-block;
+}
+.btn_icon i.iconfont.icon-word{
+	font-size:14px !important;
+	color:#ffffff;
+}
+.bottommenu>ul>li>ul>li .btn_icon {
+	/* background-color: #0C70AC; */
+	background-color: #05a2e9;
+}
+
+.bottommenu .btn_icon:hover {
+	text-decoration: none;
+	font-weight: normal;
+	background-color: #0C70AC;
+}
+/*拟办意见按钮  */
+.nibanbtn_icon {
+	display: inline-block;
+	height: 50px;
+    line-height: 50px;
+	margin-right: 18px;
+    padding: 0 10px 0 10px;
+	font-size: 18px !important;
+	letter-spacing: 4px;
+	border-radius: 3px;
+	width:50%;
+	border: 2px;
+	color: #ffffff;
+	cursor: pointer;
+	margin-top: 5px;
+	border:1px solid #05a2e9;
+	background-color: #05a2e9;
+}
+.niban {
+	clear: none;
+	width: 100%;
+	height: auto;
+	padding-top: 5px;
+	z-index: 10;
+	left:0;
+	bottom:0;
+	text-align: center;
+}
+.nibanbtn_icon:HOVER {
+	background-color: #0C70AC;
+	color: #ffffff;
+}
+/* 拟办意见2级页面 */
+.nibanbtn_icon2 {
+	display: inline-block;
+	height: 50px;
+    line-height: 50px;
+    padding: 0 10px 0 10px;
+	font-size: 16px !important;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	width:80%;
+	border: 2px;
+	color: #ffffff;
+	cursor: pointer;
+	margin-top: 3px;
+	border:1px solid #05a2e9;
+	background-color: #05a2e9;
+}
+.niban2 {
+	clear: none;
+	width: 100%;
+	height: 50px;
+	padding-top: 5px;
+	z-index: 10;
+	left:0;
+	bottom:0;
+	text-align: center;
+}
+.nibanbtn_icon2:HOVER {
+	background-color: #0C70AC;
+	color: #ffffff;
+}
+.deal_user{
+	display:inline-block;
+	width:65px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>管理员登陆</title>
+		<link rel="stylesheet" type="text/css" href="src/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="src/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="src/css/font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="src/css/pop.css" />
+		<script type="text/javascript" src="src/js/commonJs/jquery.js" ></script>
+		<script type="text/javascript" src="src/js/commonJs/move.js" ></script>
+		<script type="text/javascript" src="src/js/pageJs/index.js"></script>
+	</head>
+	<body>
+		<div class="mbody">
+			<div id="topPlan">
+				<div class="tlogo">北京发展改革委党费微信缴纳管理系统</div>
+				<div class="tright">
+					<ul>
+						<li><span>办公室党委</span><span>-</span><span>王晓辉</span></li>
+						<li><a class="edit_pwd">修改密码</a></li>
+						<li><i class="iconfont icon-kaiguan"></i></li>
+					</ul>
+				</div>
+				<div class="clearall"></div>
+				<div class="topnav">
+					<ul>
+						<li class="dengji">
+							<a attr-src="src/page/dangfei_dj.html">
+								<i class="iconfont icon-dengji"></i>
+								<span>党费登记</span>
+							</a>
+						</li>
+						<li class="seach active">
+							<i class="line"></i>
+							<a attr-src="src/page/gr_seach.html">
+								<i class="iconfont icon-seach"></i>
+								<span>查询统计</span>
+							</a>
+						</li>
+						<li class="gunli">
+							<i class="line"></i>
+							<a attr-src="src/page/zzguanli.html">
+								<i class="iconfont icon-chilun"></i>
+								<span>系统管理</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- topPlan end -->
+			<div id="leftPlan">
+				<div class="leftnav">
+					<dl>
+						<dt>查询统计<i class='iconfont icon-down'></i></dt>
+						<div class="cxtj">
+							<dd attr-src="src/page/gr_seach.html" class="active">个人缴纳情况</a><i class="line"></i></dd>
+							<dd attr-src="src/page/dzb_seach.html">支部缴纳情况<i class="line"></i></dd>
+							<dd attr-src="src/page/dw_seach.html">机关党委缴纳情况<i class="line"></i></dd>
+						</div>
+					</dl>
+				</div>
+			</div>
+			<!-- leftPlan end -->
+			<div id="mainPlan">
+				<div class="panel">
+					<iframe src="src/page/gr_seach.html" frameborder="no" border="0"></iframe>
+				</div>
+			</div>
+			<!-- mainPlan end -->
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,128 @@
+@import (reference) "base";
+.address{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 30px;
+    z-index:9;
+    background-color: @c-ff;
+    border-bottom: 1px #BFBFBF solid;
+    overflow:hidden;
+    font-size:13px;
+    span{
+        display:block;
+        float:left;
+        line-height: 30px;
+        &.coordinate{
+            width:45px;
+            border-right: 1px #BFBFBF solid;
+            text-align: center;
+            >i.icon-zuobiao{
+                font-size:20px;
+                color:#ff7771;
+            }
+        }
+        &.current{
+            padding-left:5px;
+            border-left:1px solid #e8f8fe;
+        }
+    }
+}
+.conditions{
+    margin-top:30px;
+    .pl-20;
+    background-color: #edf4fa;
+    padding-top:10px;
+    padding-bottom:10px;
+    table{
+        width: 80%;
+        th{
+            max-width: 100px;
+        }
+        td{
+            vertical-align: middle;
+            text-align: left;
+            padding-left:10px;
+            line-height: 30px;
+            >.seach{
+                padding:0px 5px;
+                height:26px;
+                line-height: 26px;
+                color:@c-ff;   
+                display:inline-block;
+                background-color: @c-border;
+            }
+            input[type=text],select{
+                border:1px solid @c-e1;
+                padding-left:4px;
+                width:95%
+            }
+            input[type=text][readonly='readonly']{
+                background-color: @c-ee;
+            }
+            select.cselect{
+                width:48%;
+                min-width: 70px;
+            }
+        }
+    }
+}
+.listbtn button,.queryc{
+  height:24px;
+  width:auto;
+  padding:0px 6px;
+  text-align: center;
+  border:none;
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #1c86c5;
+  &:hover{
+     background-color: #0C70AC;
+  }
+}
+.mylist{
+    width:100%;
+    margin:0 auto;
+}
+.djform{
+    input[type=text],textarea,select{
+        border-radius: 4px;
+        border:1px solid @c-e1;
+        padding-left:4px;
+        width:80%;
+    }
+    input[type=text],select{
+        height: 30px;
+        line-height: 30px;
+    }
+    input[type=text][readonly='readonly']{
+        background-color: @c-ee;
+    }
+    >table{
+        width: 80%;
+        margin:0 auto;
+        color:@c-46;
+        border-collapse: collapse;
+        th,td{
+            border:1px solid @c-ee;
+            &.noborder{
+                border-width:0px ;
+            }
+            >i.iconfont{
+                margin-left:10px;
+                cursor: pointer;
+            }
+        }
+        td{
+            padding:5px 3px;
+        }
+        >caption{
+            .size18;
+            font-weight: bold;
+            line-height: 50px;
+        }
+    }
+}
